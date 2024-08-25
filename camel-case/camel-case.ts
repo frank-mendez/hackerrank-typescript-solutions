@@ -24,6 +24,7 @@ function main(s: string): string {
     if(isSplitVariable) {
         return splitMethod(word)
     }
+    return ''
 }
 
 const splitMethod = (s: string): string => {

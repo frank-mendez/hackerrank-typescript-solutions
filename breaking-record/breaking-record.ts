@@ -1,3 +1,7 @@
+// arr = [5, 1, 2, 3 ,4, 5, 6, 7, 8, 9, 10]
+// queries = [[1,1], [1,2],[2,1],[2,2]]
+// result [1, 2, 6, 7]
+
 function breakingRecords(scores: number[]): number[] {
     let maxScore = scores[0];
     let minScore = scores[0];

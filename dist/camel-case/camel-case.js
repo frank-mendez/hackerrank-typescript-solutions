@@ -25,6 +25,7 @@ function main(s) {
     if (isSplitVariable) {
         return splitMethod(word);
     }
+    return '';
 }
 const splitMethod = (s) => {
     const data = s.split(/(?=[A-Z])/).map((word) => {
